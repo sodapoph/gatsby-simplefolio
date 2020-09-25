@@ -38,15 +38,13 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Soraida is a web developer and multimedia artist based out of Minneapolis, Minnesota who integrates a love for illustration with ever-changing technologies.'}
+                  {paragraphOne || 'filler text for paragraph 1'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'She is a graduate of Minneapolis College of Art and Design with a BFA in Web and Multimedia Environments. She recently attended Le Wagon Tokyo, a 9-week intensive coding bootcamp to learn HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails.'}
+                  {paragraphTwo || 'filler text for paragraph 2'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'In her spare time, Soraida likes to sing karaoke, eat good food, and see the world through her thick glasses.'}
+                  {paragraphThree || 'filler text for paragraph 3'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
